@@ -1,0 +1,40 @@
+/* src/Footer.css */
+
+.footer {
+  background-color: #ffffff;
+  padding: 1rem 0;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.footer-image {
+  width: 50px;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.footer-link {
+  color: orange;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+.formContainer {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.form button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}

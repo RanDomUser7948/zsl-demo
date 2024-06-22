@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  color: black;
+  margin-bottom: 30px;
+  /* flex-direction: column; */
+}
+
+.iconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #000;
+  margin: 0 10px;
+}
+
+.inactive {
+  color: #757575;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
